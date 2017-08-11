@@ -86,7 +86,7 @@
 		},
 		"aanduiding":{
 			"@id":"http://data.vlaanderen.be/ns/adres#Locatieaanduiding.aanduiding",
-			"@type":"http://www.w3.org/2000/01/rdf-schema#Literal"
+			"@type":"http://www.w3.org/2001/XMLSchema#string"
 		},
 		"type":{
 			"@id":"http://data.vlaanderen.be/ns/adres#Locatieaanduiding.type",
@@ -94,59 +94,59 @@
 		},
 		"administratieveEenheidNiveau1":{
 			"@id":"http://www.w3.org/ns/locn#adminUnitL1",
-			"@type":"http://www.w3.org/2000/01/rdf-schema#Literal"
+			"@type":"http://www.w3.org/2001/XMLSchema#string"
 		},
 		"administratieveEenheidNiveau2":{
 			"@id":"http://www.w3.org/ns/locn#adminUnitL2",
-			"@type":"http://www.w3.org/2000/01/rdf-schema#Literal"
+			"@type":"http://www.w3.org/2001/XMLSchema#string"
 		},
 		"adresgebied":{
 			"@id":"http://www.w3.org/ns/locn#addressArea",
-			"@type":"http://www.w3.org/2000/01/rdf-schema#Literal"
+			"@type":"http://www.w3.org/2001/XMLSchema#string"
 		},
 		"busnummer":{
 			"@id":"http://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
-			"@type":"http://www.w3.org/2000/01/rdf-schema#Literal"
+			"@type":"http://www.w3.org/2001/XMLSchema#string"
 		},
 		"gemeentenaam":{
 			"@id":"http://data.vlaanderen.be/ns/adres#gemeentenaam",
-			"@type":"http://www.w3.org/2000/01/rdf-schema#Literal"
+			"@type":"http://www.w3.org/2001/XMLSchema#string"
 		},
 		"huisnummer":{
 			"@id":"http://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
-			"@type":"http://www.w3.org/2000/01/rdf-schema#Literal"
+			"@type":"http://www.w3.org/2001/XMLSchema#string"
 		},
 		"land":{
 			"@id":"http://data.vlaanderen.be/ns/adres#land",
-			"@type":"http://www.w3.org/2000/01/rdf-schema#Literal"
+			"@type":"http://www.w3.org/2001/XMLSchema#string"
 		},
 		"locatieaanduiding":{
 			"@id":"http://www.w3.org/ns/locn#locatorDesignator",
-			"@type":"http://www.w3.org/2000/01/rdf-schema#Literal"
+			"@type":"http://www.w3.org/2001/XMLSchema#string"
 		},
 		"locatienaam":{
 			"@id":"http://www.w3.org/ns/locn#locatorName",
-			"@type":"http://www.w3.org/2000/01/rdf-schema#Literal"
+			"@type":"http://www.w3.org/2001/XMLSchema#string"
 		},
 		"postbus":{
 			"@id":"http://www.w3.org/ns/locn#poBox",
-			"@type":"http://www.w3.org/2000/01/rdf-schema#Literal"
+			"@type":"http://www.w3.org/2001/XMLSchema#string"
 		},
 		"postcode":{
 			"@id":"http://www.w3.org/ns/locn#postCode",
-			"@type":"http://www.w3.org/2000/01/rdf-schema#Literal"
+			"@type":"http://www.w3.org/2001/XMLSchema#string"
 		},
 		"postnaam":{
 			"@id":"http://www.w3.org/ns/locn#postName",
-			"@type":"http://www.w3.org/2000/01/rdf-schema#Literal"
+			"@type":"http://www.w3.org/2001/XMLSchema#string"
 		},
 		"straatnaam":{
 			"@id":"http://www.w3.org/ns/locn#thoroughfare",
-			"@type":"http://www.w3.org/2000/01/rdf-schema#Literal"
+			"@type":"http://www.w3.org/2001/XMLSchema#string"
 		},
 		"volledigAdres":{
 			"@id":"http://www.w3.org/ns/locn#fullAddress",
-			"@type":"http://www.w3.org/2000/01/rdf-schema#Literal"
+			"@type":"http://www.w3.org/2001/XMLSchema#string"
 		},
 		"gemeentenaam":{
 			"@id":"http://www.w3.org/2000/01/rdf-schema#label",
@@ -155,7 +155,7 @@
 		},
 		"postcode":{
 			"@id":"http://data.vlaanderen.be/ns/adres#postcode",
-			"@type":"http://www.w3.org/2000/01/rdf-schema#Literal"
+			"@type":"http://www.w3.org/2001/XMLSchema#string"
 		},
 		"postnaam":{
 			"@id":"http://data.vlaanderen.be/ns/adres#postnaam",
@@ -169,12 +169,12 @@
 		},
 		"volledigAdres":{
 			"@id":"http://data.vlaanderen.be/ns/adres#volledigAdres",
-			"@type":"http://www.w3.org/2000/01/rdf-schema#Literal",
+			"@type":"http://www.w3.org/2001/XMLSchema#string",
 			"@container":"@set"
 		},
 		"homoniemToevoeging":{
 			"@id":"http://data.vlaanderen.be/ns/adres#homoniemToevoeging",
-			"@type":"http://www.w3.org/2000/01/rdf-schema#Literal"
+			"@type":"http://www.w3.org/2001/XMLSchema#string"
 		},
 		"status":{
 			"@id":"http://data.vlaanderen.be/ns/adres#Straatnaam.status",
@@ -187,11 +187,11 @@
 		},
 		"busnummer":{
 			"@id":"http://data.vlaanderen.be/ns/adres#busnummer",
-			"@type":"http://www.w3.org/2000/01/rdf-schema#Literal"
+			"@type":"http://www.w3.org/2001/XMLSchema#string"
 		},
 		"huisnummer":{
 			"@id":"http://data.vlaanderen.be/ns/adres#huisnummer",
-			"@type":"http://www.w3.org/2000/01/rdf-schema#Literal"
+			"@type":"http://www.w3.org/2001/XMLSchema#string"
 		},
 		"officieelToegekend":{
 			"@id":"http://data.vlaanderen.be/ns/adres#officieelToegekend",

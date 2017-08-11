@@ -32,25 +32,11 @@
       rdfs:label "thema"@nl ;
       rdfs:range skos:Concept .
 
-<http://data.vlaanderen.be/ns/profiel#Bankgegevens>
-      a       owl:Class ;
-      rdfs:comment "De Bankgegevens van een Persoon."@nl ;
-      rdfs:isDefinedBy <http://data.vlaanderen.be/ns/profiel> ;
-      rdfs:label "Bankgegevens"@nl .
-
 <http://data.vlaanderen.be/ns/profiel#Taal>
       a       owl:Class ;
       rdfs:comment "Beschrijving van de taal."@nl ;
       rdfs:isDefinedBy <http://data.vlaanderen.be/ns/profiel> ;
       rdfs:label "Taal"@nl .
-
-<http://data.vlaanderen.be/ns/profiel#adellijkeTitel>
-      a       owl:DatatypeProperty ;
-      rdfs:comment "De adelijke titel van de Persoon."@nl ;
-      rdfs:domain <http://www.w3.org/ns/person#Person> ;
-      rdfs:isDefinedBy <http://data.vlaanderen.be/ns/profiel> ;
-      rdfs:label "adelijke titel"@nl ;
-      rdfs:range rdfs:Literal .
 
 <http://data.vlaanderen.be/ns/profiel#gebruikteVoornaam>
       a       owl:DatatypeProperty ;
@@ -58,7 +44,7 @@
       rdfs:domain <http://www.w3.org/ns/person#Person> ;
       rdfs:isDefinedBy <http://data.vlaanderen.be/ns/profiel> ;
       rdfs:label "gebruikte voornaam"@nl ;
-      rdfs:range rdfs:Literal ;
+      rdfs:range xsd:string ;
       rdfs:subPropertyOf foaf:givenName .
 
 <http://data.vlaanderen.be/ns/profiel#gemeentenaam>
@@ -67,16 +53,8 @@
       rdfs:domain locn:Address ;
       rdfs:isDefinedBy <http://data.vlaanderen.be/ns/profiel> ;
       rdfs:label "gemeentenaam"@nl ;
-      rdfs:range rdfs:Literal ;
+      rdfs:range xsd:string ;
       rdfs:subPropertyOf locn:postName .
-
-<http://data.vlaanderen.be/ns/profiel#geslacht>
-      a       owl:ObjectProperty ;
-      rdfs:comment "Het feit of men een man of een vrouw is."@nl ;
-      rdfs:domain <http://www.w3.org/ns/person#Person> ;
-      rdfs:isDefinedBy <http://data.vlaanderen.be/ns/profiel> ;
-      rdfs:label "geslacht"@nl ;
-      rdfs:range skos:Concept .
 
 <http://data.vlaanderen.be/ns/profiel#land>
       a       owl:DatatypeProperty ;
@@ -84,7 +62,7 @@
       rdfs:domain locn:Address ;
       rdfs:isDefinedBy <http://data.vlaanderen.be/ns/profiel> ;
       rdfs:label "land"@nl ;
-      rdfs:range rdfs:Literal ;
+      rdfs:range xsd:string ;
       rdfs:subPropertyOf locn:adminUnitL1 .
 
 <http://data.vlaanderen.be/ns/profiel#registratie>
@@ -96,21 +74,6 @@
       rdfs:range <http://www.w3.org/ns/adms#Identifier> ;
       rdfs:subPropertyOf <http://www.w3.org/ns/adms#Identifier> .
 
-<http://data.vlaanderen.be/ns/profiel#rekeningnummer>
-      a       owl:DatatypeProperty ;
-      rdfs:comment "Het rekeningnummer van de Persoon."@nl ;
-      rdfs:domain <http://data.vlaanderen.be/ns/profiel#Bankgegevens> ;
-      rdfs:isDefinedBy <http://data.vlaanderen.be/ns/profiel> ;
-      rdfs:label "rekeningnummer"@nl ;
-      rdfs:range rdfs:Literal .
-
-<http://data.vlaanderen.be/ns/profiel#swiftcode>
-      a       owl:DatatypeProperty ;
-      rdfs:comment "De SWIFT code geassocieerd met het rekeningnummer."@nl ;
-      rdfs:domain <http://data.vlaanderen.be/ns/profiel#Bankgegevens> ;
-      rdfs:isDefinedBy <http://data.vlaanderen.be/ns/profiel> ;
-      rdfs:label "SWIFT code"@nl ;
-      rdfs:range rdfs:Literal .
 
 <http://data.vlaanderen.be/ns/profiel#type>
       a       owl:ObjectProperty ;
@@ -152,7 +115,7 @@ vcard:honorific-prefix
 rdf:value
       rdfs:label "string"@nl .
 
-rdfs:Literal
+xsd:string
       rdfs:label "Getypeerde String"@nl .
 
 vcard:language

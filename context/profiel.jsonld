@@ -23,14 +23,10 @@
       "@id": "foaf:isPrimaryTopicOf", 
       "@type": "@id" 
     }
-    "adelijkeTitel": "profiel:adelijkeTitel",
-    "bankgegevens": "profiel:bankgegevens",
     "heeftTaal": "vcard:heeftTaal",
     "taal": "vcard:language",
     "thema": "profiel:thema",
     "status": "profiel:status",
-    "rekeningnummer": "profiel:rekeningnummer",
-    "swiftcode": "profiel:swiftcode",
 
     "type": "http://purl.org/dc/terms/type"
   }
